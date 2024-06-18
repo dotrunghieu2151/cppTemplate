@@ -12,9 +12,12 @@ else ()
   set(CMAKE_CXX_FLAGS_RELEASE "-Ox")
 endif()
 
+# Packagegs
 # find_package(unofficial-sqlite3 CONFIG REQUIRED)
 
-add_executable(skillup main.cpp)
+# Include dir
+add_subdirectory(Core)
+add_subdirectory(App)
 
 # target_link_libraries(skillup PRIVATE unofficial::sqlite3::sqlite3)
 
