@@ -6,7 +6,8 @@
       "displayName": "Configure vcpkg",
       "cacheVariables": {
         "CMAKE_TOOLCHAIN_FILE": "${sourceDir}/vcpkg/scripts/buildsystems/vcpkg.cmake",
-        "CMAKE_FIND_DEBUG_MODE": false
+        "CMAKE_FIND_DEBUG_MODE": false,
+        "VCPKG_DISABLE_METRICS": false
       }
     }
   ],
